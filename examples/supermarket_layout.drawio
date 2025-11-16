@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram id="supermarket-layout" name="Supermarket Layout">
+    <mxGraphModel dx="976" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="650" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Unit 10: Supermarket Layout - 便利商店 &amp; 超级市场" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="70" width="680" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="ENTRANCE 入口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="70" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Produce Section&lt;br&gt;生鲜区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="125" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Bakery&lt;br&gt;面包区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="230" y="125" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Deli&lt;br&gt;熟食区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="380" y="125" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Pharmacy&lt;br&gt;药房" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="530" y="125" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Aisle 1 通道1&lt;br&gt;Sundries 日用品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="215" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Aisle 2 通道2&lt;br&gt;General Items" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Frozen Food&lt;br&gt;Section&lt;br&gt;冷冻食品区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="380" y="215" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Dairy Section&lt;br&gt;奶制品区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="530" y="215" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Meat Section&lt;br&gt;肉制品区&lt;br&gt;Butcher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="345" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Aisle 5 通道5&lt;br&gt;Canned Food&lt;br&gt;罐头食品区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="230" y="345" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Sundries&lt;br&gt;Section&lt;br&gt;日常用品区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="380" y="345" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Liquor Section&lt;br&gt;酒品区&lt;br&gt;(21+ only)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="530" y="345" width="190" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Checkout Lines 交款处&lt;br&gt;Cash | Credit | Check | ATM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Express Lane&lt;br&gt;快速结账通道&lt;br&gt;(10 items or less)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b9e0a5;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="440" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="EXIT 出口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="510" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Key Terms 关键术语:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="550" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="• Coupon 优惠券 • Price Check 价格确认 • Receipt 收据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="80" y="570" width="320" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="• Paper or Plastic? 纸袋还是塑料袋? • Double bags 双层袋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="410" y="570" width="310" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
