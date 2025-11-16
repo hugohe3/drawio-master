@@ -1,0 +1,115 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="百货公司平面布局" id="department-store-layout">
+    <mxGraphModel dx="976" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="720" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;b&gt;主入口 Main Entrance&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;b&gt;大堂 Lobby&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="顾客服务中心&lt;br&gt;Service Center" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="60" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="电梯&lt;br&gt;Elevator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="扶梯&lt;br&gt;Escalator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="250" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="信息台&lt;br&gt;Info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="寄存处&lt;br&gt;Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;化妆品香水区&lt;/b&gt;&lt;br&gt;Cosmetics &amp; Perfume" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="160" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;b&gt;珠宝首饰区&lt;/b&gt;&lt;br&gt;Jewelry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="260" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;b&gt;手表配饰区&lt;/b&gt;&lt;br&gt;Watches &amp; Accessories" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;b&gt;鞋包区&lt;/b&gt;&lt;br&gt;Shoes &amp; Bags" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="580" y="160" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;b&gt;女装区&lt;/b&gt;&lt;br&gt;Women&#39;s Fashion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="试衣间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="190" y="250" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;男装区&lt;/b&gt;&lt;br&gt;Men&#39;s Fashion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="260" y="250" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="试衣间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="350" y="250" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;b&gt;运动户外区&lt;/b&gt;&lt;br&gt;Sports &amp; Outdoor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="250" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;b&gt;童装玩具区&lt;/b&gt;&lt;br&gt;Kids &amp; Toys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffccff;strokeColor=#cc99ff;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="580" y="250" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;b&gt;家纺床品区&lt;/b&gt;&lt;br&gt;Home Textiles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;b&gt;家居用品区&lt;/b&gt;&lt;br&gt;Home Goods" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="200" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;厨具餐具区&lt;/b&gt;&lt;br&gt;Kitchenware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="340" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;电子产品区&lt;/b&gt;&lt;br&gt;Electronics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;图书文具区&lt;/b&gt;&lt;br&gt;Books &amp; Stationery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="640" y="360" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="收银台 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="60" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="收银台 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="收银台 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="收银台 4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="会员中心&lt;br&gt;VIP Center" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="380" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="&lt;b&gt;咖啡休息区&lt;/b&gt;&lt;br&gt;Cafe &amp; Lounge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="卫生间&lt;br&gt;Restroom" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="620" y="460" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="母婴室" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="690" y="460" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="&lt;b&gt;仓库/员工区&lt;/b&gt; Storage &amp; Staff Area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="510" width="690" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="← 主通道 →" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#999999;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="250" y="230" width="100" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="← 主通道 →" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#999999;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="440" width="100" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="收银区 Checkout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#666666;fontStyle=3;" parent="1" vertex="1">
+          <mxGeometry x="130" y="495" width="100" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

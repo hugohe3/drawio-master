@@ -67,6 +67,11 @@ Agent 被定义为 Draw.io 图表生成专家，专注于：
 - 组织结构图（Organizational Charts）
 - 业务流程图（Process Flows）
 - AWS 架构图（使用 AWS 2025 图标）
+- 泳道图（Swimlane Diagrams）
+- 甘特图（Gantt Charts）
+- RACI 矩阵（RACI Matrix）
+- 产品路线图（Product Roadmaps）
+- 平面布局图（Layout Diagrams）
 
 ## Draw.io XML 核心知识
 

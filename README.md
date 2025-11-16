@@ -66,6 +66,10 @@ drawio-master/
 | **实体关系图** | 数据模型、ER 图 | 数据库设计、对象关系 |
 | **AWS 架构图** | 云服务架构 | 云架构设计、技术方案 |
 | **泳道图** | 跨部门流程 | 协作流程、责任划分 |
+| **甘特图** | 项目进度计划 | 项目管理、资源规划 |
+| **RACI 矩阵** | 责任分配表 | 团队协作、职责明确 |
+| **产品路线图** | 战略规划时间线 | 产品管理、季度规划 |
+| **平面布局图** | 空间平面设计 | 商业设计、空间规划 |
 
 ## 💡 使用示例
 
@@ -93,9 +97,27 @@ drawio-master/
 数据层：MySQL、Redis
 ```
 
-### 查看更多示例
+### 精选示例库
 
-查看 `examples/` 目录获取完整示例文件
+`examples/` 目录包含 13 个精美的示例图表，涵盖所有图表类型：
+
+| 示例文件 | 类型 | 描述 |
+|---------|------|------|
+| `flowchart_onboarding.drawio` | 流程图 | 员工入职完整流程（含决策节点） |
+| `architecture_ecommerce.drawio` | 架构图 | 电商平台三层架构（前端/应用/数据） |
+| `mindmap_project_planning.drawio` | 思维导图 | 项目规划四维度（需求/技术/团队/质量） |
+| `orgchart_company.drawio` | 组织结构图 | 公司组织架构（CEO→高管→部门→团队） |
+| `er_diagram_blog.drawio` | ER图 | 博客系统数据模型（含主外键关系） |
+| `aws_architecture_webapp.drawio` | AWS架构图 | AWS三层Web应用（多可用区+负载均衡） |
+| `swimlane_order_process.drawio` | 泳道图（竖向） | 订单处理流程（5个系统交互） |
+| `swimlane_product_launch.drawio` | 泳道图（横向） | 产品立项审批流程（3个角色协作） |
+| `gantt_chart_project.drawio` | 甘特图 | 软件开发项目进度管理（7周周期） |
+| `raci_matrix.drawio` | RACI矩阵 | 项目责任分配矩阵（6任务×5角色） |
+| `roadmap_product_development.drawio` | 产品路线图 | 2025年产品开发战略规划（Q1-Q4） |
+| `supermarket_layout.drawio` | 平面布局图 | 超市卖场平面布局（收银+商品区） |
+| `department_store_layout.drawio` | 平面布局图 | 百货公司楼层布局（多品类+配套设施） |
+
+💡 **提示**：这些示例可以直接在 [Draw.io](https://app.diagrams.net/) 中打开，并作为模板使用
 
 ## 🎨 样式定制
 
@@ -169,6 +191,26 @@ A: 在需求中明确说明布局方向和间距要求
 - [Draw.io 官网](https://www.diagrams.net/)
 - [项目示例](examples/)
 - [技术文档](AGENTS.md)
+
+## 🎯 项目特色
+
+### 丰富的示例库
+- ✅ 13 个精美示例，涵盖常见业务场景
+- ✅ 每个示例都包含真实业务逻辑
+- ✅ 专业配色方案，可直接用于生产环境
+- ✅ 可作为模板快速定制
+
+### 智能生成引擎
+- 🧠 理解自然语言需求描述
+- 📐 自动计算最优布局
+- 🎨 智能配色和样式美化
+- 🔗 自动处理节点连接关系
+
+### 标准化输出
+- 📦 完全兼容 Draw.io
+- 🔄 支持后续手动编辑
+- 💾 纯文本格式，便于版本控制
+- 🌐 可导出多种格式（PNG/SVG/PDF）
 
 ## 📄 许可证
 

@@ -28,6 +28,8 @@ DIAGRAM TYPES SUPPORTED:
 - Flowcharts, mind maps, entity diagrams, architecture diagrams
 - Technical illustrations, organizational charts, process flows
 - AWS architecture (use AWS 2025 icons)
+- Swimlane diagrams, Gantt charts, RACI matrix
+- Product roadmaps, layout diagrams (floor plans, etc.)
 - Any diagram that can be represented with shapes and connectors
 
 STYLE PRINCIPLES:

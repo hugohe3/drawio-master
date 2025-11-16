@@ -63,8 +63,14 @@ yarn.lock
 # Project Specific
 projects/*
 !projects/.gitkeep
+
+# Draw.io Temporary and Backup Files
 *.drawio.bkp
 *.drawio~
+*.drawio.dtmp
+.~*.drawio
+.$*.drawio.bkp
+.*.drawio.bkp
 
 # Test Files
 .pytest_cache/
