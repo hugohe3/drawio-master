@@ -1,0 +1,161 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Notion 2026 工作流程" id="notion-workflow">
+    <mxGraphModel dx="976" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Notion 2026 职场工作模板核心流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="200" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="classify-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;strokeColor=#9673a6;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="step2" target="project" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-area" value="核心检视区" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="40" y="360" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="weekly-todo" value="一周待办&lt;br&gt;专注本周" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" parent="review-area" vertex="1">
+          <mxGeometry x="20" y="45" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="week-goal" value="周目标&lt;br&gt;最期待的事" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" parent="review-area" vertex="1">
+          <mxGeometry x="140" y="45" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="day-focus" value="日聚焦&lt;br&gt;必须完成的一件事" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="review-area" vertex="1">
+          <mxGeometry x="270" y="45" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="repeat-todo" value="重复性待办&lt;br&gt;习惯养成/SOP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" parent="review-area" vertex="1">
+          <mxGeometry x="410" y="45" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="okr-area" value="专案与目标管理 (OKR)" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="600" y="360" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="project-main" value="专案 (Project)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;" parent="okr-area" vertex="1">
+          <mxGeometry x="20" y="45" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="key-results" value="关键作为 (KR)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;" parent="okr-area" vertex="1">
+          <mxGeometry x="110" y="45" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-okr" value="AI OKR&lt;br&gt;自动生成 KR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="okr-area" vertex="1">
+          <mxGeometry x="55" y="95" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="okr-connect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;strokeColor=#b85450;" parent="okr-area" source="project-main" target="key-results" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="效率工具与资料库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="530" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="560" width="530" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="todo-db" value="待办资料库&lt;br&gt;· AI 完成定义&lt;br&gt;· 地点/需时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="55" y="575" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="meeting-db" value="会议资料库&lt;br&gt;· AI 总结&lt;br&gt;· 会前准备&lt;br&gt;· 自动笔记" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="180" y="575" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="para-db" value="第二大脑 (PARA)&lt;br&gt;· 专案/领域&lt;br&gt;· 资源/归档&lt;br&gt;· Web Clipper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="305" y="575" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="crm-db" value="CRM 客户管理&lt;br&gt;· PARA 分类&lt;br&gt;· AI 扫描名片" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="440" y="575" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-workflow" value="终极 AI 整合工作流" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="600" y="530" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-setup" value="1. 设置 Agent&lt;br&gt;(GTD+OKR 逻辑)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=10;" parent="ai-workflow" vertex="1">
+          <mxGeometry x="15" y="40" width="85" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-create" value="2. 建立专属 Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=10;" parent="ai-workflow" vertex="1">
+          <mxGeometry x="110" y="40" width="85" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-auto" value="3. AI 自动化&lt;br&gt;· 抓取待办&lt;br&gt;· 自动创建专案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;" parent="ai-workflow" vertex="1">
+          <mxGeometry x="15" y="95" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-flow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;strokeColor=#d6b656;" parent="ai-workflow" source="agent-setup" target="agent-create" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-flow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;strokeColor=#d6b656;" parent="ai-workflow" source="agent-create" target="agent-auto" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="90" />
+              <mxPoint x="105" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="summary" value="专注比时间更重要 - 决定个人成就的关键分水岭" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="700" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#b85450;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="step5" target="summary" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="190" />
+              <mxPoint x="857" y="720" />
+              <mxPoint x="730" y="720" />
+            </Array>
+            <mxPoint x="842" y="220" as="sourcePoint" />
+            <mxPoint x="827" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4dkKVRd5U8u55lEsJRQo-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="260" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="classify-title" value="待办分类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="event" value="事件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="task" value="任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry x="90" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="project" value="专案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry x="180" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="idea" value="想法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry x="270" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="repeat" value="重复" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry x="360" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="two-min" value="两分钟" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="4dkKVRd5U8u55lEsJRQo-1" vertex="1">
+          <mxGeometry x="450" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkKVRd5U8u55lEsJRQo-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="70" width="730" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="goal" value="核心目标：实现专注" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" parent="4dkKVRd5U8u55lEsJRQo-2" vertex="1">
+          <mxGeometry x="240" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" value="1. 捕捉&lt;br&gt;立刻记录所有事项" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="4dkKVRd5U8u55lEsJRQo-2" vertex="1">
+          <mxGeometry y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. 分类&lt;br&gt;区分压力与优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="4dkKVRd5U8u55lEsJRQo-2" vertex="1">
+          <mxGeometry x="150" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3. 确认&lt;br&gt;明确关键行动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="4dkKVRd5U8u55lEsJRQo-2" vertex="1">
+          <mxGeometry x="300" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4. 行动&lt;br&gt;列出具体待办" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="4dkKVRd5U8u55lEsJRQo-2" vertex="1">
+          <mxGeometry x="450" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" value="5. 提醒&lt;br&gt;专注在当天" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="4dkKVRd5U8u55lEsJRQo-2" vertex="1">
+          <mxGeometry x="600" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#6c8ebf;" parent="4dkKVRd5U8u55lEsJRQo-2" source="goal" target="step1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#6c8ebf;" parent="4dkKVRd5U8u55lEsJRQo-2" source="step1" target="step2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#6c8ebf;" parent="4dkKVRd5U8u55lEsJRQo-2" source="step2" target="step3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#6c8ebf;" parent="4dkKVRd5U8u55lEsJRQo-2" source="step3" target="step4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;strokeColor=#6c8ebf;" parent="4dkKVRd5U8u55lEsJRQo-2" source="step4" target="step5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
