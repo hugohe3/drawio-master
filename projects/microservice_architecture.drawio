@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" modified="2025-11-16T00:00:00.000Z" agent="Draw.io AI Agent" version="22.0.0">
+  <diagram name="微服务架构" id="microservice-architecture">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- 背景容器 - 前端层 -->
+        <mxCell id="bg1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="480" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- 背景容器 - 网关层 -->
+        <mxCell id="bg2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="480" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- 背景容器 - 服务层 -->
+        <mxCell id="bg3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="480" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- 背景容器 - 数据层 -->
+        <mxCell id="bg4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="480" height="110" as="geometry"/>
+        </mxCell>
+        
+        <!-- 前端层 -->
+        <mxCell id="2" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;🌐 Web App&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#616161&quot;&gt;浏览器客户端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1565C0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;glass=0;gradientColor=#0D47A1;gradientDirection=south;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="160" height="65" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="3" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;📱 Mobile App&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#E3F2FD&quot;&gt;移动端应用&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1565C0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;glass=0;gradientColor=#0D47A1;gradientDirection=south;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="160" height="65" as="geometry"/>
+        </mxCell>
+        
+        <!-- 网关层 -->
+        <mxCell id="4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;🚪 API Gateway&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#E8F5E9&quot;&gt;统一入口 | 路由 | 鉴权 | 限流&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#2E7D32;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;glass=0;gradientColor=#1B5E20;gradientDirection=south;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="240" height="65" as="geometry"/>
+        </mxCell>
+        
+        <!-- 服务层 -->
+        <mxCell id="5" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;👤 用户服务&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#5D4037&quot;&gt;User Service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA726;strokeColor=#F57C00;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;glass=0;gradientColor=#EF6C00;gradientDirection=south;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="130" height="65" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;📦 订单服务&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#5D4037&quot;&gt;Order Service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA726;strokeColor=#F57C00;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;glass=0;gradientColor=#EF6C00;gradientDirection=south;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="235" y="280" width="130" height="65" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;💳 支付服务&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#5D4037&quot;&gt;Payment Service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA726;strokeColor=#F57C00;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;glass=0;gradientColor=#EF6C00;gradientDirection=south;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="130" height="65" as="geometry"/>
+        </mxCell>
+        
+        <!-- 数据层 -->
+        <mxCell id="8" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;🗄️ MySQL&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#4E342E&quot;&gt;关系型数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF6F00;strokeColor=#E65100;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;gradientColor=#D84315;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="140" y="400" width="130" height="75" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="9" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;⚡ Redis&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#4E342E&quot;&gt;缓存数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF6F00;strokeColor=#E65100;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;gradientColor=#D84315;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="130" height="75" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：前端层到网关层 -->
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#1976D2;shadow=1;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#1976D2;shadow=1;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：网关层到服务层 -->
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#388E3C;shadow=1;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#388E3C;shadow=1;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#388E3C;shadow=1;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：服务层到数据层 -->
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#FFA726;dashed=1;dashPattern=8 4;shadow=1;" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#FFA726;dashed=1;dashPattern=8 4;shadow=1;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#FFA726;dashed=1;dashPattern=8 4;shadow=1;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#FFA726;dashed=1;dashPattern=8 4;shadow=1;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#FFA726;dashed=1;dashPattern=8 4;shadow=1;" edge="1" parent="1" source="6" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#FFA726;dashed=1;dashPattern=8 4;shadow=1;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 图层标签 -->
+        <mxCell id="21" value="&lt;b&gt;前端层&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Presentation&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1565C0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="55" width="85" height="35" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="22" value="&lt;b&gt;网关层&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Gateway&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#2E7D32;" vertex="1" parent="1">
+          <mxGeometry x="565" y="175" width="75" height="35" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="23" value="&lt;b&gt;服务层&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Services&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="565" y="295" width="75" height="35" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="24" value="&lt;b&gt;数据层&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Data Store&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#E65100;" vertex="1" parent="1">
+          <mxGeometry x="565" y="420" width="75" height="35" as="geometry"/>
+        </mxCell>
+        
+        <!-- 标题 -->
+        <mxCell id="25" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;微服务架构图&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#757575&quot;&gt;Microservices Architecture Diagram&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="505" width="280" height="50" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
