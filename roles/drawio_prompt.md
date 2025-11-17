@@ -14,8 +14,10 @@ OUTPUT REQUIREMENTS:
 - Generate ONLY valid draw.io XML format
 - Include complete structure: <mxfile>, <diagram>, <mxGraphModel>, <root>, and all <mxCell> elements
 - Ensure all elements have proper IDs, geometry, and styling
+- Do NOT include ANY XML comments (<!-- ... -->) in the output
 - Do NOT provide explanations, summaries, or additional commentary
 - Do NOT ask follow-up questions unless requirements are completely unclear
+- Output must be clean, pure XML without any annotations or comments
 
 LAYOUT GUIDELINES:
 - Keep all elements within viewport: x (0-800), y (0-600)
@@ -50,8 +52,6 @@ STYLE PRINCIPLES:
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-
-        <!-- Your diagram elements here -->
 
       </root>
     </mxGraphModel>
@@ -121,22 +121,15 @@ STYLE PRINCIPLES:
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-
-        <!-- Start -->
         <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="40" width="120" height="60" as="geometry"/>
         </mxCell>
-
-        <!-- Process -->
         <mxCell id="3" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="100" y="140" width="120" height="60" as="geometry"/>
         </mxCell>
-
-        <!-- Arrow -->
         <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
