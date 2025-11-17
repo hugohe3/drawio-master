@@ -61,9 +61,7 @@ package-lock.json
 yarn.lock
 
 # Project Specific
-projects/*
-!projects/.gitkeep
-!projects/*.drawio
+
 
 # Draw.io Temporary and Backup Files
 *.drawio.bkp
