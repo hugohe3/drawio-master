@@ -1,0 +1,149 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="如何学习" id="learning-flow">
+    <mxGraphModel dx="962" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;opacity=30;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1320" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="如何学习流程图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078d4;strokeColor=none;shadow=1;fontSize=24;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="建立成长型思维" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="580" y="110" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;strokeWidth=3;endFill=1;strokeColor=#666666;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="制定学习目标（OKR）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="580" y="200" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;strokeWidth=3;endFill=1;strokeColor=#666666;" parent="1" source="4" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="时间管理（四象限法则）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="580" y="285" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;strokeWidth=3;endFill=1;strokeColor=#666666;" parent="1" source="6" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="五步学习循环" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=17;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="580" y="370" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;strokeWidth=3;endFill=1;strokeColor=#9673a6;" parent="1" source="8" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="① 预习阶段&lt;br&gt;标记难点 · 制造认知冲突" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;strokeWidth=2;strokeColor=#82b366;" parent="1" source="10" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="② 主动听课&lt;br&gt;康奈尔笔记 · 积极提问" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="540" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;strokeWidth=2;strokeColor=#82b366;" parent="1" source="12" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="③ 间隔复习&lt;br&gt;检索练习 · 艾宾浩斯曲线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="630" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;strokeWidth=2;strokeColor=#82b366;" parent="1" source="14" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="④ 主动输出&lt;br&gt;费曼技巧 · 教授他人" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="630" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;strokeWidth=2;strokeColor=#82b366;" parent="1" source="16" target="18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="⑤ 以测代练&lt;br&gt;错题本 · 反馈改进" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="540" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;strokeWidth=3;dashed=1;strokeColor=#9673a6;endFill=1;" parent="1" source="18" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loop_label" value="持续迭代提升" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="400" y="438" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="知识连接&lt;br&gt;思维导图" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="440" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="刻意练习&lt;br&gt;85%法则" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="535" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="心流状态&lt;br&gt;专注投入" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;shadow=1;strokeWidth=2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="630" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method_title" value="关键方法论" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="870" y="400" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="保障要素" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="380" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="💤 充足睡眠&lt;br&gt;9小时/天" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="450" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="🏃 规律运动&lt;br&gt;1小时/天" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="🧘 情绪管理&lt;br&gt;ABC疗法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="590" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="🤝 人际关系&lt;br&gt;师生同学家长" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="660" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="🎯 终身学习能力" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="600" y="750" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;strokeWidth=3;endFill=1;strokeColor=#666666;" parent="1" source="14" target="42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="side_panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;strokeWidth=2;shadow=1;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="110" width="280" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="💪 动力来源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="130" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="🎯 目标感：设定具体目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="190" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="🔍 好奇心：保持探索欲" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="245" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="✨ 意义感：长远价值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="300" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="📚 核心原则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=15;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="370" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="✓ 主动学习 &gt; 被动学习" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="430" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="✓ 输出倒逼输入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="480" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="✓ 拒绝低水平重复" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="530" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="✓ 建立知识连接网络" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="580" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="✓ 间隔学习优于突击" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="630" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="✓ 注重睡眠与运动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="680" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="bottom_note" value="学习是一个系统工程，需要方法论、执行力和持续迭代的结合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9c4;strokeColor=#f9a825;fontSize=14;fontStyle=2;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="820" width="1250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
