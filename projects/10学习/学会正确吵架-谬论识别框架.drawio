@@ -1,0 +1,127 @@
+<mxfile host="65bd71144e">
+    <diagram name="谬论识别与应对框架" id="main">
+        <mxGraphModel dx="914" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="《学会正确吵架》谬论识别与应对框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="20" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="core" value="核心目标：&lt;br&gt;让沟通回归理性&lt;br&gt;不是为了吵赢" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="299" y="80" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="logic_foundation" value="两种基础逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="319" y="180" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;" parent="1" source="core" target="logic_foundation" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="deduction" value="演绎法&lt;br&gt;前提+信息=结论&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;弱点：前提可能错&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="185" y="270" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="induction" value="归纳法&lt;br&gt;多个样本→总结规律&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;弱点：样本可能片面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="435" y="270" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;" parent="1" source="logic_foundation" target="deduction" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;" parent="1" source="logic_foundation" target="induction" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="counter1" value="应对：质疑前提&lt;br&gt;这常识还适用吗？&lt;br&gt;为什么一定要那样？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="185" y="370" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="counter2" value="应对：质疑信息源&lt;br&gt;样本够吗？有反例吗？&lt;br&gt;是否选择性展示？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="435" y="370" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;" parent="1" source="deduction" target="counter1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;" parent="1" source="induction" target="counter2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="box1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="470" width="170" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="topic_shift" value="偷换论题类谬论" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="35" y="480" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="box2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="470" width="170" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="atmosphere" value="打破氛围类谬论" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="215" y="480" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="box3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="470" width="170" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="subtle" value="巧妙伪装类谬论" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="480" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="box4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d6b656;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="470" width="170" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="self_check" value="自我检查与提升" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="480" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ts1" value="1. 诉诸人身&lt;br&gt;→先道歉后修正" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="ts2" value="2. 你也一样&lt;br&gt;→切割过去" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="ts3" value="3. 米饭谬论&lt;br&gt;→限定回答" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="ts4" value="4. 稻草人&lt;br&gt;→立刻澄清" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="at1" value="1. 同情谬论&lt;br&gt;→共情+转折" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="at2" value="2. 新潮/传统&lt;br&gt;→质疑适用性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="at3" value="3. 权威谬论&lt;br&gt;→询问个人观点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="at4" value="4. 连坐谬误&lt;br&gt;→要求具体化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="su1" value="1. 二分法&lt;br&gt;→寻找第三选项" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="su2" value="2. 暗示表达&lt;br&gt;→还原事实" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="su3" value="3. 无知谬论&lt;br&gt;→举证责任" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="su4" value="4. 多数谬论&lt;br&gt;→质疑数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="sc1" value="1. 盘点常识&lt;br&gt;(PEST分析)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="sc2" value="2. 收集事实&lt;br&gt;打破信息茧房" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="545" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="sc3" value="3. 善于沟通&lt;br&gt;倾听+5W2H" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="sc4" value="4. 消除偏见&lt;br&gt;多角度思考" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="610" width="80" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="razor" value="反驳之剃刀（汉隆剃刀）&lt;br&gt;不要将愚蠢/失误归咎于恶意&lt;br&gt;拒绝阴谋论，保持理性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="710" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="note1" value="对于根深蒂固的恶意&lt;br&gt;（如网络喷子）&lt;br&gt;无视和远离是最高效策略" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="710" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="note2" value="形式逻辑陷阱：&lt;br&gt;后项肯定 / 前项否定&lt;br&gt;中项不周延" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="603" y="710" width="112" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
