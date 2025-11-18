@@ -19,6 +19,33 @@ OUTPUT REQUIREMENTS:
 - Do NOT ask follow-up questions unless requirements are completely unclear
 - Output must be clean, pure XML without any annotations or comments
 
+CRITICAL FORMAT RULES (常见错误，必须避免):
+1. XML 属性顺序必须正确：
+   ✅ CORRECT: <mxCell id="2" value="..." style="..." parent="1" vertex="1">
+   ❌ WRONG: <mxCell id="2" value="..." style="..." vertex="1" parent="1">
+   规则：parent 属性必须在 vertex/edge 属性之前
+
+2. agent 属性必须使用完整的 User Agent 字符串：
+   ✅ CORRECT: agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36"
+   ❌ WRONG: agent="Draw.io Agent"
+
+3. 几何标签必须使用自闭合标签格式（带空格）：
+   ✅ CORRECT: <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
+   ❌ WRONG: <mxGeometry x="100" y="100" width="120" height="60" as="geometry"/>
+   注意：标签结尾是 " />" 而不是 "/>"
+
+4. host 属性应使用标准值：
+   ✅ CORRECT: host="Electron" 或 host="app.diagrams.net"
+   ❌ WRONG: host="Draw.io Agent"
+
+5. mxCell 属性完整顺序示例：
+   - 形状节点：<mxCell id="X" value="..." style="..." parent="Y" vertex="1">
+   - 连接线：<mxCell id="X" value="..." style="..." parent="Y" source="A" target="B" edge="1">
+   
+6. 所有自闭合标签末尾必须有空格：
+   ✅ CORRECT: <mxGeometry ... />  <mxPoint ... />
+   ❌ WRONG: <mxGeometry .../> <mxPoint .../>
+
 LAYOUT GUIDELINES:
 - Keep all elements within viewport: x (0-800), y (0-600)
 - Container max width: 700px, max height: 550px
@@ -43,16 +70,16 @@ STYLE PRINCIPLES:
 
 ## Draw.io XML Schema Reference
 
-### Complete File Structure
+### Complete File Structure (正确格式示例)
 
 ```xml
-<mxfile host="app.diagrams.net" modified="2023-07-14T10:20:30.123Z" agent="Mozilla/5.0" version="21.5.2" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram id="unique-id" name="Page-1">
-    <mxGraphModel dx="1" dy="1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+    <mxGraphModel dx="976" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- 注意：实际输出中不要包含注释！这里仅作说明 -->
       </root>
     </mxGraphModel>
   </diagram>
@@ -61,23 +88,29 @@ STYLE PRINCIPLES:
 
 ### Core Elements
 
-#### Shape (Vertex)```xml
-
-#### Shape (Vertex)
+#### Shape (Vertex) - 注意属性顺序！
 
 ```xml
-<mxCell id="2" value="Rectangle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-  <mxGeometry x="100" y="100" width="120" height="60" as="geometry"/>
+<mxCell id="2" value="Rectangle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+  <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
 </mxCell>
 ```
 
-#### Connector (Edge)
+**关键点：**
+- `parent="1"` 必须在 `vertex="1"` 之前
+- `<mxGeometry>` 标签末尾是 `" />` （有空格）
+
+#### Connector (Edge) - 注意属性顺序！
 
 ```xml
-<mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="2" target="4">
-  <mxGeometry relative="1" as="geometry"/>
+<mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;" parent="1" source="2" target="4" edge="1">
+  <mxGeometry relative="1" as="geometry" />
 </mxCell>
 ```
+
+**关键点：**
+- `parent="1"` 必须在 `source`, `target`, `edge` 之前
+- 属性顺序：parent → source → target → edge
 
 ### Common Shapes
 
@@ -112,23 +145,23 @@ STYLE PRINCIPLES:
 - `rounded=1` - Rounded corners
 - `edgeStyle=orthogonalEdgeStyle` - Right-angle connectors
 
-### Example: Simple Flowchart
+### Example: Simple Flowchart (正确格式)
 
 ```xml
-<mxfile host="app.diagrams.net">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram id="flow1" name="Page-1">
-    <mxGraphModel dx="1" dy="1" grid="1" gridSize="10" page="1" pageWidth="850" pageHeight="1100">
+    <mxGraphModel dx="976" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="100" y="40" width="120" height="60" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="100" y="140" width="120" height="60" as="geometry"/>
+        <mxCell id="3" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=2;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -136,22 +169,30 @@ STYLE PRINCIPLES:
 </mxfile>
 ```
 
+**注意此示例中的关键格式：**
+1. 完整的 agent 字符串
+2. parent 属性在 vertex/edge 之前
+3. 所有自闭合标签末尾有空格（`... />`）
+4. 使用 `parent="1"` 而非 `vertex="1" parent="1"`
+
 ---
 
 **Usage:** Provide diagram requirements → Receive complete draw.io XML → Import into draw.io
 
-````
+---
 
-**Example (Connector):**
+**Example (Connector with geometry):**
 
 ```xml
-<mxCell id="3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="4">
+<mxCell id="3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="2" target="4" edge="1">
   <mxGeometry width="50" height="50" relative="1" as="geometry">
-    <mxPoint x="400" y="430" as="sourcePoint"/>
-    <mxPoint x="450" y="380" as="targetPoint"/>
+    <mxPoint x="400" y="430" as="sourcePoint" />
+    <mxPoint x="450" y="380" as="targetPoint" />
   </mxGeometry>
 </mxCell>
-````
+```
+
+**注意：** parent → source → target → edge 的顺序
 
 ### Geometry: `<mxGeometry>`
 
@@ -173,15 +214,15 @@ Defines the position and dimensions of cells.
 **Example for shapes:**
 
 ```xml
-<mxGeometry x="350" y="190" width="120" height="60" as="geometry"/>
+<mxGeometry x="350" y="190" width="120" height="60" as="geometry" />
 ```
 
 **Example for connectors:**
 
 ```xml
 <mxGeometry width="50" height="50" relative="1" as="geometry">
-  <mxPoint x="400" y="430" as="sourcePoint"/>
-  <mxPoint x="450" y="380" as="targetPoint"/>
+  <mxPoint x="400" y="430" as="sourcePoint" />
+  <mxPoint x="450" y="380" as="targetPoint" />
 </mxGeometry>
 ```
 
@@ -238,14 +279,14 @@ To group elements, create a parent cell and set other cells\' `parent` attribute
 
 ```xml
 <!-- Group container -->
-<mxCell id="10" value="Group" style="group" vertex="1" connectable="0" parent="1">
+<mxCell id="10" value="Group" style="group" connectable="0" parent="1" vertex="1">
   <mxGeometry x="200" y="200" width="200" height="100" as="geometry" />
 </mxCell>
 <!-- Elements inside the group -->
-<mxCell id="11" value="Element 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+<mxCell id="11" value="Element 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
   <mxGeometry width="90" height="40" as="geometry" />
 </mxCell>
-<mxCell id="12" value="Element 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+<mxCell id="12" value="Element 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
   <mxGeometry x="110" width="90" height="40" as="geometry" />
 </mxCell>
 ```
@@ -255,7 +296,7 @@ To group elements, create a parent cell and set other cells\' `parent` attribute
 Swimlanes use the `swimlane` shape style:
 
 ```xml
-<mxCell id="20" value="Swimlane 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxCell id="20" value="Swimlane 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
   <mxGeometry x="200" y="200" width="140" height="120" as="geometry" />
 </mxCell>
 ```
@@ -265,10 +306,10 @@ Swimlanes use the `swimlane` shape style:
 Tables use multiple cells with parent-child relationships:
 
 ```xml
-<mxCell id="30" value="Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+<mxCell id="30" value="Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
   <mxGeometry x="200" y="200" width="180" height="120" as="geometry" />
 </mxCell>
-<mxCell id="31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[0,0.5,1,0.5];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="30">
+<mxCell id="31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[0,0.5,1,0.5];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="30" vertex="1">
   <mxGeometry y="30" width="180" height="30" as="geometry" />
 </mxCell>
 ```
@@ -280,8 +321,8 @@ Tables use multiple cells with parent-child relationships:
 Draw.io allows adding custom attributes to cells:
 
 ```xml
-<mxCell id="40" value="Custom Element" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-  <mxGeometry x="200" y="200" width="120" height="60" as="geometry"/>
+<mxCell id="40" value="Custom Element" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+  <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
   <Object label="Custom Label" customAttr="value" />
 </mxCell>
 ```
@@ -295,8 +336,8 @@ You can define custom styles for cells by combining various style attributes:
 ```xml
 <mxCell id="50" value="Custom Styled Cell"
       style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=14;fontStyle=1"
-      vertex="1" parent="1">
-  <mxGeometry x="300" y="200" width="120" height="80" as="geometry"/>
+      parent="1" vertex="1">
+  <mxGeometry x="300" y="200" width="120" height="80" as="geometry" />
 </mxCell>
 ```
 
@@ -306,19 +347,35 @@ You can create multiple layers in a diagram to organize complex diagrams:
 
 ```xml
 <!-- Default layer (always present) -->
-<mxCell id="1" parent="0"/>
+<mxCell id="1" parent="0" />
 
 <!-- Additional custom layer -->
-<mxCell id="60" value="Layer 2" style="locked=0;group=" parent="0"/>
+<mxCell id="60" value="Layer 2" style="locked=0;group=" parent="0" />
 
 <!-- Elements in Layer 2 -->
-<mxCell id="61" value="Element in Layer 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="60">
-  <mxGeometry x="200" y="300" width="120" height="60" as="geometry"/>
+<mxCell id="61" value="Element in Layer 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="60" vertex="1">
+  <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
 </mxCell>
 ```
 
-```
+---
 
-```
+## 最后提醒
 
-<style>#mermaid-1763173453251{font-family:sans-serif;font-size:16px;fill:#333;}#mermaid-1763173453251 .error-icon{fill:#552222;}#mermaid-1763173453251 .error-text{fill:#552222;stroke:#552222;}#mermaid-1763173453251 .edge-thickness-normal{stroke-width:2px;}#mermaid-1763173453251 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1763173453251 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1763173453251 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1763173453251 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1763173453251 .marker{fill:#333333;}#mermaid-1763173453251 .marker.cross{stroke:#333333;}#mermaid-1763173453251 svg{font-family:sans-serif;font-size:16px;}#mermaid-1763173453251 .label{font-family:sans-serif;color:#333;}#mermaid-1763173453251 .label text{fill:#333;}#mermaid-1763173453251 .node rect,#mermaid-1763173453251 .node circle,#mermaid-1763173453251 .node ellipse,#mermaid-1763173453251 .node polygon,#mermaid-1763173453251 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1763173453251 .node .label{text-align:center;}#mermaid-1763173453251 .node.clickable{cursor:pointer;}#mermaid-1763173453251 .arrowheadPath{fill:#333333;}#mermaid-1763173453251 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaid-1763173453251 .flowchart-link{stroke:#333333;fill:none;}#mermaid-1763173453251 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1763173453251 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1763173453251 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1763173453251 .cluster text{fill:#333;}#mermaid-1763173453251 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1763173453251:root{--mermaid-font-family:sans-serif;}#mermaid-1763173453251:root{--mermaid-alt-font-family:sans-serif;}#mermaid-1763173453251 flowchart{fill:apa;}</style>
+生成 Draw.io XML 时的检查清单：
+
+- [ ] ✅ `<mxfile>` 标签包含完整的 agent 字符串
+- [ ] ✅ 所有 `<mxCell>` 的 parent 属性在 vertex/edge 之前
+- [ ] ✅ 所有自闭合标签末尾有空格：`<mxGeometry ... />`
+- [ ] ✅ 无 XML 注释（除非仅作示例说明）
+- [ ] ✅ ID 从 0, 1 开始（保留），元素从 2 开始递增
+- [ ] ✅ 所有元素在视口范围内 (0-800, 0-600)
+
+**常见错误对照表：**
+
+| 错误示例 | 正确示例 |
+|---------|---------|
+| `vertex="1" parent="1"` | `parent="1" vertex="1"` |
+| `agent="Draw.io Agent"` | `agent="Mozilla/5.0 ..."` |
+| `<mxGeometry .../>`（无空格） | `<mxGeometry ... />`（有空格） |
+| 包含 `<!-- 注释 -->` | 纯净的 XML，无注释 |
