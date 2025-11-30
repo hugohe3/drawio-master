@@ -1,0 +1,72 @@
+name: Validate Draw.io Files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.drawio'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.drawio'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate XML Format
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Find and validate .drawio files
+        run: |
+          echo "🔍 Searching for .drawio files..."
+          files=$(find . -name "*.drawio" -type f ! -name ".*")
+          
+          if [ -z "$files" ]; then
+            echo "⚠️ No .drawio files found"
+            exit 0
+          fi
+          
+          echo "📋 Found $(echo "$files" | wc -l | tr -d ' ') files to validate"
+          echo ""
+          
+          errors=0
+          for file in $files; do
+            echo "Validating: $file"
+            
+            # Check XML well-formedness
+            if ! xmllint --noout "$file" 2>/dev/null; then
+              echo "  ❌ Invalid XML format"
+              errors=$((errors + 1))
+              continue
+            fi
+            
+            # Check for required Draw.io elements
+            if ! grep -q "<mxfile" "$file"; then
+              echo "  ❌ Missing <mxfile> element"
+              errors=$((errors + 1))
+              continue
+            fi
+            
+            if ! grep -q "<diagram" "$file"; then
+              echo "  ❌ Missing <diagram> element"
+              errors=$((errors + 1))
+              continue
+            fi
+            
+            echo "  ✅ Valid"
+          done
+          
+          echo ""
+          if [ $errors -gt 0 ]; then
+            echo "❌ Validation failed: $errors file(s) have errors"
+            exit 1
+          else
+            echo "✅ All files validated successfully"
+          fi

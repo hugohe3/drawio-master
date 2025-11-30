@@ -8,6 +8,7 @@
 ## [未发布]
 
 ### 计划中
+
 - Web UI 界面
 - 命令行工具
 - API 服务
@@ -17,6 +18,7 @@
 ## [1.0.0] - 2025-11-16
 
 ### 新增
+
 - ✨ 初始项目结构
 - 📝 完整的项目文档（README.md）
 - 🤖 Agent 技术文档（agent.md）
@@ -33,6 +35,7 @@
 - 📁 标准化目录结构
 
 ### 功能特性
+
 - 🎨 自动化流程图生成
 - 🧠 智能布局算法
 - 🎯 多种图表类型支持
@@ -46,6 +49,7 @@
 - 📐 标准 Draw.io XML 格式输出
 
 ### 文档
+
 - 📖 完整的中文文档
 - 💡 详细使用示例
 - 🛠️ 技术参考指南
@@ -57,12 +61,15 @@
 ## 版本说明
 
 ### [主版本号] - 重大变更
+
 当进行不兼容的 API 修改时递增
 
 ### [次版本号] - 功能更新
+
 当添加向后兼容的新功能时递增
 
 ### [修订号] - Bug 修复
+
 当进行向后兼容的问题修复时递增
 
 ---
@@ -80,6 +87,5 @@
 
 **注意**：本项目当前处于积极开发中，API 可能会发生变化。请在升级时查看此文档。
 
-[未发布]: https://github.com/yourusername/drawio-master/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/yourusername/drawio-master/releases/tag/v1.0.0
-
+[未发布]: https://github.com/hugohe3/drawio-master/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/hugohe3/drawio-master/releases/tag/v1.0.0
