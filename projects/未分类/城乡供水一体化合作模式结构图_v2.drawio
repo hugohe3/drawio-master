@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="26.0.3">
+  <diagram name="合作模式结构图" id="cooperation-structure">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- 左上区域：平台公司 -->
+        <mxCell id="2" value="市平台公司" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- 中上区域：市政府 -->
+        <mxCell id="3" value="市政府" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- 右上区域：平台公司（参股方） -->
+        <mxCell id="4" value="市平台公司" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- 右上区域：中国水务 -->
+        <mxCell id="5" value="中国水务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- 左侧：专项债/政策性资金 -->
+        <mxCell id="8" value="专项债/政策性资金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- 左侧：居民/非居民用户 -->
+        <mxCell id="9" value="居民/非居民用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- 中左：增量项目 -->
+        <mxCell id="10" value="增量项目&lt;br&gt;(新建/改扩建工程)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- 中间：市水利局 -->
+        <mxCell id="11" value="市水利局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- 右侧：项目公司 -->
+        <mxCell id="12" value="项目公司" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="730" y="180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- 左下：中国水务联合体 -->
+        <mxCell id="13" value="中国水务联合体" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="140" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- 右下：存量项目 -->
+        <mxCell id="14" value="存量项目&lt;br&gt;(城区水厂)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="730" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：提供资金 市政府 → 平台公司（水平直线） -->
+        <mxCell id="6" value="提供资金" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：指定 市政府 → 右侧平台公司（水平直线） -->
+        <mxCell id="7" value="指定" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：融资（水平直线） -->
+        <mxCell id="15" value="融资" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="8" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：水费收入（水平直线） -->
+        <mxCell id="16" value="水费收入" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：投资 平台公司 → 增量项目（垂直直线） -->
+        <mxCell id="17" value="投资" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="2" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：期满移交运营权（水平直线） -->
+        <mxCell id="18" value="期满移交运营权" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：EPCO（垂直直线） -->
+        <mxCell id="19" value="EPCO" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="10" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：授权 市政府 → 水利局（垂直直线） -->
+        <mxCell id="20" value="授权" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="3" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：TOT转让资金（水平直线） -->
+        <mxCell id="21" value="TOT 转让资金" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=1;exitY=0.25;entryX=0;entryY=0.25;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：合同授权监督考核（水平直线） -->
+        <mxCell id="22" value="合同授权/监督考核" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=1;exitY=0.75;entryX=0;entryY=0.75;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：参股（垂直直线） -->
+        <mxCell id="23" value="参股" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="4" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：控股（垂直直线） -->
+        <mxCell id="24" value="控股" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="5" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：TOT（垂直直线） -->
+        <mxCell id="25" value="TOT" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="12" target="14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- 连接线：合作期满移交（水平直线） -->
+        <mxCell id="26" value="合作期满移交" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;fontSize=11;" edge="1" parent="1" source="14" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

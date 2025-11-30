@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram name="合作模式结构图" id="cooperation-structure">
+        <mxGraphModel dx="1353" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="市平台公司" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="市政府" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="40" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="市平台公司" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="40" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="中国水务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="40" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="提供资金" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="指定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="专项债/政策性资金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="180" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="居民/非居民用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="260" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="增量项目&lt;br&gt;(新建/改扩建工程)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="200" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="市水利局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="项目公司" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="中国水务联合体" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="360" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="存量项目&lt;br&gt;(城区水厂)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="融资" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.25;" parent="1" source="8" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="水费收入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.75;" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="投资" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="2" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="期满移交&lt;br&gt;运营权" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="EPCO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="10" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="授权" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;entryX=0.5;entryY=0;" parent="1" source="3" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="520" y="120"/>
+                            <mxPoint x="520" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="TOT 转让资金" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=1;exitY=0.25;entryX=0;entryY=0.25;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="合同授权&lt;br&gt;监督考核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=1;exitY=0.75;entryX=0;entryY=0.75;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="参股" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="4" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="650" y="120"/>
+                            <mxPoint x="710" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="控股" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="5" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="765" y="120"/>
+                            <mxPoint x="770" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="TOT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="合作期满移交" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=11;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" parent="1" source="14" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="520" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
