@@ -1,0 +1,234 @@
+<mxfile host="app.diagrams.net" modified="2025-12-01T00:00:00.000Z" agent="Draw.io Agent" version="24.0.0">
+  <diagram name="数据质量校验流程" id="data-quality-check">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="area1" value="获得校验指标所在对象" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;dashed=1;dashPattern=3 3;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="700" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="node1" value="1. 单数据集（表）校验目标获取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="area1">
+          <mxGeometry x="30" y="45" width="180" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="node2" value="获得单表字段列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="area1">
+          <mxGeometry x="50" y="95" width="140" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area1" source="node1" target="node2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="node3" value="2. 跨数据源与数据集（表）校验目标获取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="area1">
+          <mxGeometry x="300" y="45" width="220" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="node4" value="编写自定义&lt;br&gt;联合SQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="area1">
+          <mxGeometry x="310" y="95" width="90" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="node5" value="执行SQL&lt;br&gt;(limit 1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="area1">
+          <mxGeometry x="415" y="95" width="90" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="node6" value="获得检查字段列表&lt;br&gt;(从返回结果中提取)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="area1">
+          <mxGeometry x="520" y="95" width="150" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area1" source="node3" target="node4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area1" source="node4" target="node5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area1" source="node5" target="node6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="area2" value="各字段质量指标配置" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;dashed=1;dashPattern=3 3;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="700" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_1" value="选择&lt;br&gt;字段1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="30" y="45" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_2" value="选择&lt;br&gt;校验类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="100" y="45" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_3" value="设置&lt;br&gt;校验值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="170" y="45" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_4" value="设置&lt;br&gt;空值策略" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="240" y="45" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_5" value="选择&lt;br&gt;阈值类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="320" y="45" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_6" value="选择阈值&lt;br&gt;比较方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="390" y="45" width="60" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="field1_7" value="设置&lt;br&gt;阈值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="465" y="45" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="field1_1" target="field1_2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="field1_2" target="field1_3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="field1_3" target="field1_4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="field1_4" target="field1_5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="field1_5" target="field1_6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="field1_6" target="field1_7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_1" value="选择&lt;br&gt;字段N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="30" y="105" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_2" value="选择&lt;br&gt;校验类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="100" y="105" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_3" value="设置&lt;br&gt;校验值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="170" y="105" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_4" value="设置&lt;br&gt;空值策略" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="240" y="105" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_5" value="选择&lt;br&gt;阈值类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="320" y="105" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_6" value="选择阈值&lt;br&gt;比较方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="390" y="105" width="60" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="fieldN_7" value="设置&lt;br&gt;阈值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="area2">
+          <mxGeometry x="465" y="105" width="55" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="fieldN_1" target="fieldN_2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="fieldN_2" target="fieldN_3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="fieldN_3" target="fieldN_4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="fieldN_4" target="fieldN_5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="fieldN_5" target="fieldN_6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="area2" source="fieldN_6" target="fieldN_7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="note1" value="告警设置" style="text;html=1;strokeColor=#d6b656;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;dashed=1;dashPattern=3 3;" vertex="1" parent="area2">
+          <mxGeometry x="545" y="45" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="dashed_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d6b656;strokeWidth=2;dashed=1;dashPattern=3 3;" vertex="1" parent="area2">
+          <mxGeometry x="310" y="35" width="220" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow_from_area1_left" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;dashPattern=5 5;strokeColor=#666666;" edge="1" parent="1" source="node2" target="field1_1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow_from_area1_right" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;dashPattern=5 5;strokeColor=#666666;" edge="1" parent="1" source="node6" target="field1_6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="node7" value="设置检查的数据分区与条件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="400" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="area2" target="node7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node8" value="设置执行周期" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="460" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="node7" target="node8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="area3" value="执行质量检查" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;dashed=1;dashPattern=3 3;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="700" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="node9" value="生成检查SQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="area3">
+          <mxGeometry x="45" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="node10" value="执行检查SQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="area3">
+          <mxGeometry x="195" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="node11" value="获得检查数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="area3">
+          <mxGeometry x="345" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="node12" value="执行检查&lt;br&gt;获得未通过数与总数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="area3">
+          <mxGeometry x="495" y="40" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area3" source="node9" target="node10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area3" source="node10" target="node11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area3" source="node11" target="node12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="node8" target="area3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="area4" value="执行告警检查" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=3 3;fontSize=12;fontStyle=1;fontColor=#333333;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="700" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="node13" value="计算指标值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="area4">
+          <mxGeometry x="495" y="40" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="node14" value="与阈值比较" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="area4">
+          <mxGeometry x="360" y="40" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="node15" value="超过阈值?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="area4">
+          <mxGeometry x="225" y="30" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node16" value="发出告警通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="area4">
+          <mxGeometry x="85" y="40" width="105" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area4" source="node14" target="node15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area4" source="node13" target="node14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="area4" source="node15" target="node16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="label_Y" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="area4">
+          <mxGeometry x="195" y="45" width="25" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="area3" target="area4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="620" as="sourcePoint"/>
+            <mxPoint x="640" y="680" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node17" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="285" y="770" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow27_N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="node15" target="node17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="750"/>
+              <mxPoint x="375" y="750"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_N" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="340" y="728" width="25" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow28_Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="node16" target="node17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="760"/>
+              <mxPoint x="197" y="790"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
