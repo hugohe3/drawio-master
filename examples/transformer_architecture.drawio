@@ -1,0 +1,358 @@
+<mxfile host="Electron" agent="Draw.io Agent" version="29.0.3">
+  <diagram name="Transformer Architecture" id="transformer">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="Transformer Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
+          <mxGeometry x="250" y="10" width="300" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Encoder Section Container -->
+        <mxCell id="enc_container" value="Encoder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9c27b0;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=16;fontStyle=1;fontColor=#6a1b9a;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="280" height="520" as="geometry" />
+        </mxCell>
+        
+        <!-- Decoder Section Container -->
+        <mxCell id="dec_container" value="Decoder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#2196f3;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=16;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="70" width="280" height="580" as="geometry" />
+        </mxCell>
+        
+        <!-- Nx Badge Encoder -->
+        <mxCell id="nx_enc" value="×N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#e91e63;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="90" width="30" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Nx Badge Decoder -->
+        <mxCell id="nx_dec" value="×N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#e91e63;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="90" width="30" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== ENCODER COMPONENTS ========== -->
+        
+        <!-- Input Embedding -->
+        <mxCell id="input_embed" value="Input&lt;br&gt;Embedding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="520" width="100" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Positional Encoding (Encoder) -->
+        <mxCell id="pos_enc_e" value="⊕ Positional&lt;br&gt;Encoding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#c2185b;fontSize=11;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="450" width="100" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- Multi-Head Attention (Encoder) -->
+        <mxCell id="mha_enc" value="Multi-Head&lt;br&gt;Attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ff9800;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="330" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Add & Norm 1 (Encoder) -->
+        <mxCell id="add_norm_e1" value="Add &amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="110" y="270" width="100" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Feed Forward (Encoder) -->
+        <mxCell id="ffn_enc" value="Feed&lt;br&gt;Forward" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#388e3c;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Add & Norm 2 (Encoder) -->
+        <mxCell id="add_norm_e2" value="Add &amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="110" y="120" width="100" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== DECODER COMPONENTS ========== -->
+        
+        <!-- Output Embedding -->
+        <mxCell id="output_embed" value="Output&lt;br&gt;Embedding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="580" width="100" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Positional Encoding (Decoder) -->
+        <mxCell id="pos_enc_d" value="⊕ Positional&lt;br&gt;Encoding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#c2185b;fontSize=11;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="510" width="100" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- Masked Multi-Head Attention -->
+        <mxCell id="masked_mha" value="Masked&lt;br&gt;Multi-Head&lt;br&gt;Attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;strokeColor=#f57c00;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Add & Norm 1 (Decoder) -->
+        <mxCell id="add_norm_d1" value="Add &amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="550" y="355" width="100" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Cross-Attention -->
+        <mxCell id="cross_attn" value="Multi-Head&lt;br&gt;Attention&lt;br&gt;(Cross)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ffc107;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="265" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Add & Norm 2 (Decoder) -->
+        <mxCell id="add_norm_d2" value="Add &amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="550" y="210" width="100" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Feed Forward (Decoder) -->
+        <mxCell id="ffn_dec" value="Feed&lt;br&gt;Forward" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#388e3c;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="135" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Add & Norm 3 (Decoder) -->
+        <mxCell id="add_norm_d3" value="Add &amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="550" y="90" width="100" height="35" as="geometry" />
+        </mxCell>
+        
+        <!-- Linear Layer -->
+        <mxCell id="linear" value="Linear" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#e53935;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="20" width="70" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Softmax -->
+        <mxCell id="softmax" value="Softmax" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ef9a9a;strokeColor=#c62828;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="20" width="70" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Output Probabilities -->
+        <mxCell id="output_prob" value="Output&lt;br&gt;Probabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-15" width="70" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Input Labels -->
+        <mxCell id="inputs_label" value="Inputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="575" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="outputs_label" value="Outputs&lt;br&gt;(shifted right)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="555" y="635" width="90" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== ENCODER CONNECTIONS (with animation style) ========== -->
+        
+        <!-- Input to Input Embedding -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#9c27b0;flowAnimation=1;" parent="1" source="inputs_label" target="input_embed" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Input Embedding to Positional Encoding -->
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#9c27b0;flowAnimation=1;" parent="1" source="input_embed" target="pos_enc_e" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Positional Encoding to Multi-Head Attention -->
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#9c27b0;flowAnimation=1;" parent="1" source="pos_enc_e" target="mha_enc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Multi-Head Attention to Add & Norm 1 -->
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#9c27b0;flowAnimation=1;" parent="1" source="mha_enc" target="add_norm_e1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 1 (Encoder) -->
+        <mxCell id="e_res1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=1;strokeColor=#9c27b0;dashed=1;dashPattern=5 3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="450" as="sourcePoint" />
+            <mxPoint x="65" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Add & Norm 1 to Feed Forward -->
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#9c27b0;flowAnimation=1;" parent="1" source="add_norm_e1" target="ffn_enc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Feed Forward to Add & Norm 2 -->
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#9c27b0;flowAnimation=1;" parent="1" source="ffn_enc" target="add_norm_e2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 2 (Encoder) -->
+        <mxCell id="e_res2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=1;strokeColor=#9c27b0;dashed=1;dashPattern=5 3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="270" as="sourcePoint" />
+            <mxPoint x="65" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- ========== DECODER CONNECTIONS (with animation style) ========== -->
+        
+        <!-- Output to Output Embedding -->
+        <mxCell id="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="outputs_label" target="output_embed" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Output Embedding to Positional Encoding -->
+        <mxCell id="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="output_embed" target="pos_enc_d" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Positional Encoding to Masked Multi-Head Attention -->
+        <mxCell id="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="pos_enc_d" target="masked_mha" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Masked MHA to Add & Norm 1 -->
+        <mxCell id="d4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="masked_mha" target="add_norm_d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 1 (Decoder) -->
+        <mxCell id="d_res1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=1;strokeColor=#2196f3;dashed=1;dashPattern=5 3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="510" as="sourcePoint" />
+            <mxPoint x="505" y="375" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Add & Norm 1 to Cross-Attention -->
+        <mxCell id="d5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="add_norm_d1" target="cross_attn" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Cross-Attention to Add & Norm 2 -->
+        <mxCell id="d6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="cross_attn" target="add_norm_d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 2 (Decoder) -->
+        <mxCell id="d_res2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=1;strokeColor=#2196f3;dashed=1;dashPattern=5 3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="355" as="sourcePoint" />
+            <mxPoint x="505" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Add & Norm 2 to Feed Forward -->
+        <mxCell id="d7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="add_norm_d2" target="ffn_dec" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Feed Forward to Add & Norm 3 -->
+        <mxCell id="d8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#2196f3;flowAnimation=1;" parent="1" source="ffn_dec" target="add_norm_d3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 3 (Decoder) -->
+        <mxCell id="d_res3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=1;strokeColor=#2196f3;dashed=1;dashPattern=5 3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="210" as="sourcePoint" />
+            <mxPoint x="505" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Add & Norm 3 to Linear -->
+        <mxCell id="d9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#e53935;flowAnimation=1;" parent="1" source="add_norm_d3" target="linear" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Linear to Softmax -->
+        <mxCell id="d10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#e53935;flowAnimation=1;" parent="1" source="linear" target="softmax" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Softmax to Output -->
+        <mxCell id="d11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=2;strokeColor=#e53935;flowAnimation=1;" parent="1" source="softmax" target="output_prob" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== CROSS-ATTENTION CONNECTION (Encoder to Decoder) ========== -->
+        
+        <!-- Encoder Output to Cross-Attention (K, V) -->
+        <mxCell id="cross_conn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;strokeWidth=3;strokeColor=#ff9800;flowAnimation=1;shadow=1;" parent="1" source="add_norm_e2" target="cross_attn" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="100" />
+              <mxPoint x="400" y="100" />
+              <mxPoint x="400" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- K, V Label on Cross Connection -->
+        <mxCell id="kv_label" value="K, V" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#ff9800;" parent="1" vertex="1">
+          <mxGeometry x="380" y="180" width="40" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Q Label -->
+        <mxCell id="q_label" value="Q" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#2196f3;" parent="1" vertex="1">
+          <mxGeometry x="600" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- ========== LEGEND ========== -->
+        
+        <mxCell id="legend_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#e0e0e0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="610" width="280" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="615" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="leg1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ff9800;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="50" y="640" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1_t" value="Attention" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="70" y="635" width="50" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="leg2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#388e3c;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="130" y="640" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2_t" value="Feed Forward" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="150" y="635" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="leg3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#4caf50;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="230" y="640" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3_t" value="Add &amp; Norm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="250" y="635" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="leg4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="50" y="660" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4_t" value="Embedding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="70" y="655" width="55" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="leg5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#c2185b;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="130" y="660" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5_t" value="Positional Enc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="150" y="655" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="leg6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#e53935;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="230" y="660" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6_t" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="250" y="655" width="45" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Flow Animation Note -->
+        <mxCell id="anim_note" value="💡 Tip: Enable &quot;Flow Animation&quot; in Draw.io to see animated connectors" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#f57f17;" parent="1" vertex="1">
+          <mxGeometry x="350" y="660" width="400" height="25" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
