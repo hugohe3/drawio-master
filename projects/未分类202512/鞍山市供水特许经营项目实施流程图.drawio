@@ -1,0 +1,379 @@
+<mxfile host="app.diagrams.net" modified="2025-12-08T09:45:00.000Z" agent="Draw.io Agent" version="21.0.0" type="device">
+  <diagram name="鞍山市供水特许经营项目实施流程" id="anshan-water-supply-tot-project">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1600" background="#f8fafc" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- ============ 顶部标题区域 ============ -->
+        <mxCell id="header-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0c4a6e;strokeColor=none;arcSize=6;shadow=1;gradientColor=#075985;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="920" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-icon" value="💧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="60" y="45" width="55" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-title" value="鞍山市供水生产服务提升特许经营项目实施流程图" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="600" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-sub" value="汪家峪净水厂等  ·  TOT模式（转让—运营—移交）  ·  特许经营期30年" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#7dd3fc;" vertex="1" parent="1">
+          <mxGeometry x="120" y="78" width="550" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-badge" value="存量资产盘活项目" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#22c55e;strokeColor=none;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="830" y="45" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-value" value="总投资 4.47亿元" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#fbbf24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="78" width="110" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- ============ 项目信息卡片区 ============ -->
+        <!-- 项目概况卡片 -->
+        <mxCell id="info-card1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0ea5e9;strokeWidth=1;arcSize=8;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="290" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-header1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0ea5e9;strokeColor=none;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-title1" value="🏭  项目范围" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#ffffff;fontStyle=1;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-text1" value="水源泵站 + 汪家峪净水厂 + 配套管线&lt;br&gt;设计规模：35万m³/d  ·  供水企业：市水务集团" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#0369a1;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="290" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 实施机构卡片 -->
+        <mxCell id="info-card2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;strokeWidth=1;arcSize=8;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="140" width="290" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-header2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f59e0b;strokeColor=none;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="140" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-title2" value="🏛️  实施机构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#ffffff;fontStyle=1;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="355" y="140" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-text2" value="&lt;b&gt;项目实施机构：&lt;/b&gt;鞍山市住房和城乡建设局&lt;br&gt;&lt;b&gt;政府出资代表：&lt;/b&gt;城投公司（持股30%）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#92400e;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="355" y="170" width="290" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 付费模式卡片 -->
+        <mxCell id="info-card3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#10b981;strokeWidth=1;arcSize=8;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="290" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-header3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10b981;strokeColor=none;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-title3" value="💰  付费模式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#ffffff;fontStyle=1;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="info-text3" value="&lt;b&gt;完全使用者付费项目&lt;/b&gt;&lt;br&gt;项目公司向下游供水企业收取水费&lt;br&gt;无政府运营补贴" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#065f46;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="670" y="170" width="290" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ============ 阶段一：准备授权阶段 ============ -->
+        <mxCell id="phase1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef2ff;strokeColor=#6366f1;strokeWidth=2;arcSize=4;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="255" width="920" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-num" value="01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;fontColor=#c7d2fe;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="265" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-badge" value="第一阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="115" y="275" width="70" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-title" value="准备授权" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#4338ca;fontStyle=1;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 步骤1 -->
+        <mxCell id="step1-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a5b4fc;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="315" width="195" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="step1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="323" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step1-title" value="政府授权" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#4338ca;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="102" y="320" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step1-text" value="市政府授权市住建局作为&lt;br&gt;实施机构，负责组织准备、&lt;br&gt;选择、签约、执行、监管、&lt;br&gt;移交等工作" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="175" height="65" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头1-2 -->
+        <mxCell id="arrow1-2" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;strokeColor=#6366f1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="367" as="sourcePoint"/>
+            <mxPoint x="290" y="367" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 步骤2 -->
+        <mxCell id="step2-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a5b4fc;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="315" width="195" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="step2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="323" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step2-title" value="公开招标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#4338ca;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="337" y="320" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step2-text" value="市住建局按照公平、公正、&lt;br&gt;公开的原则，采用公开招标&lt;br&gt;方式选择特许经营者" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="175" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="step2-tag" value="📋 公开招标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#3b82f6;fontColor=#1e40af;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="305" y="395" width="80" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头2-3 -->
+        <mxCell id="arrow2-3" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;strokeColor=#6366f1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="367" as="sourcePoint"/>
+            <mxPoint x="525" y="367" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 步骤3 -->
+        <mxCell id="step3-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a5b4fc;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="315" width="195" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="step3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="323" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step3-title" value="成立项目公司" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#4338ca;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="572" y="320" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step3-text" value="中标特许经营者和政府出资&lt;br&gt;代表按 &lt;b style=&quot;color:#dc2626;&quot;&gt;70%：30%&lt;/b&gt; 股权比例&lt;br&gt;在鞍山市设立项目公司" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="175" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="step3-tag" value="注册资本 8956.76万元" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;fontColor=#92400e;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="540" y="395" width="130" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头3-4 -->
+        <mxCell id="arrow3-4" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;strokeColor=#6366f1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="367" as="sourcePoint"/>
+            <mxPoint x="760" y="367" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 步骤4 -->
+        <mxCell id="step4-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a5b4fc;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="315" width="175" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="step4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6366f1;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="323" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step4-title" value="资产授权转让" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#4338ca;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="807" y="320" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step4-text" value="存量资产产权归市政府&lt;br&gt;市政府授权市住建局作为&lt;br&gt;存量资产经营权转让方" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="775" y="350" width="155" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- ============ 阶段二：签约融资阶段 ============ -->
+        <mxCell id="arrow-phase12" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=3;strokeColor=#6366f1;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="440" as="sourcePoint"/>
+            <mxPoint x="500" y="475" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="phase2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#10b981;strokeWidth=2;arcSize=4;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="920" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-num" value="02" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;fontColor=#bbf7d0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-badge" value="第二阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10b981;strokeColor=none;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="115" y="500" width="70" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-title" value="签约融资" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#15803d;fontStyle=1;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="495" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 步骤5 -->
+        <mxCell id="step5-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#86efac;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="380" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="step5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#10b981;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="548" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step5-title" value="签署《特许经营协议》" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#15803d;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="102" y="545" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step5-text" value="市住建局与项目公司签署《特许经营协议》：&lt;br&gt;• 向项目公司转让存量资产经营权&lt;br&gt;• 授予项目公司特许经营权&lt;br&gt;• 项目公司负责投融资、运营、维护等工作" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="578" width="360" height="58" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头5-6 -->
+        <mxCell id="arrow5-6" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;strokeColor=#10b981;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="590" as="sourcePoint"/>
+            <mxPoint x="475" y="590" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 步骤6 -->
+        <mxCell id="step6-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#86efac;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="460" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="step6-num" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#10b981;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="548" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step6-title" value="签订《融资合同》" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#15803d;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="522" y="545" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step6-text" value="项目公司与金融机构签订《融资合同》：&lt;br&gt;• 投入项目资本金&lt;br&gt;• 从金融机构进行融资，筹集项目资金&lt;br&gt;• 按照《融资合同》约定按期还本付息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="578" width="280" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="step6-amount" value="融资金额：&lt;b&gt;3.57亿元&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#22c55e;fontColor=#166534;fontSize=11;fontStyle=0;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="790" y="555" width="130" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="step6-source" value="银行贷款" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#3b82f6;fontColor=#1e40af;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="790" y="585" width="70" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ============ 阶段三：运营维护阶段 ============ -->
+        <mxCell id="arrow-phase23" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=3;strokeColor=#10b981;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="660" as="sourcePoint"/>
+            <mxPoint x="500" y="695" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="phase3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#f59e0b;strokeWidth=2;arcSize=4;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="700" width="920" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-num" value="03" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;fontColor=#fde68a;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="710" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-badge" value="第三阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f59e0b;strokeColor=none;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="115" y="720" width="70" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-title" value="运营维护" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#b45309;fontStyle=1;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="715" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-period" value="⏱️ 特许经营期 30年" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#fca5a5;fontColor=#dc2626;fontSize=12;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="145" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- 步骤7 -->
+        <mxCell id="step7-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbbf24;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="420" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="step7-num" value="7" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f59e0b;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="768" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step7-title" value="特许经营期间 — 获得使用者付费收入" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#b45309;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="102" y="765" width="350" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step7-text" value="项目公司有权根据《特许经营协议》及其与项目使用者签订的相关合同约定，获得使用者付费收入" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="798" width="395" height="35" as="geometry"/>
+        </mxCell>
+        <!-- 收费流程 -->
+        <mxCell id="fee-flow" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#fcd34d;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="838" width="395" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="fee-text" value="项目公司 → 向下游供水企业提供自来水 → 收取 &lt;b style=&quot;color:#16a34a;&quot;&gt;供水水费&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#713f12;" vertex="1" parent="1">
+          <mxGeometry x="75" y="838" width="395" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头7-8 -->
+        <mxCell id="arrow7-8" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;strokeColor=#f59e0b;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="820" as="sourcePoint"/>
+            <mxPoint x="515" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 步骤8 -->
+        <mxCell id="step8-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbbf24;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="420" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="step8-num" value="8" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f59e0b;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="768" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step8-title" value="特许经营期间 — 绩效评价" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#b45309;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="562" y="765" width="250" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step8-text" value="市住建局有权根据《特许经营协议》的约定，对项目公司进行绩效评价" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="798" width="395" height="35" as="geometry"/>
+        </mxCell>
+        <!-- 评价结果 -->
+        <mxCell id="result-good" value="✓ 奖励" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#22c55e;fontColor=#166534;fontSize=11;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="540" y="843" width="80" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="result-bad" value="✗ 处罚" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#ef4444;fontColor=#b91c1c;fontSize=11;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="630" y="843" width="80" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="result-note" value="根据绩效评价结果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6b7280;" vertex="1" parent="1">
+          <mxGeometry x="720" y="845" width="110" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- ============ 阶段四：期满移交阶段 ============ -->
+        <mxCell id="arrow-phase34" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=3;strokeColor=#f59e0b;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="905" as="sourcePoint"/>
+            <mxPoint x="500" y="940" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="phase4-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#a855f7;strokeWidth=2;arcSize=4;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="945" width="920" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-num" value="04" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;fontColor=#e9d5ff;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="955" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-badge" value="第四阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a855f7;strokeColor=none;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="115" y="965" width="70" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-title" value="期满移交" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#7e22ce;fontStyle=1;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="960" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 步骤9 -->
+        <mxCell id="step9-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#c084fc;strokeWidth=1;arcSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1005" width="620" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="step9-num" value="9" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a855f7;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1015" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="step9-title" value="特许经营期限届满移交" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#7e22ce;fontStyle=1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="102" y="1010" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="step9-text" value="项目公司将本项目设施及权益&lt;b style=&quot;color:#dc2626;&quot;&gt;完好、无偿、不设任何权利负担&lt;/b&gt;地移交给市住建局或市政府指定的其他机构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4b5563;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1015" width="370" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 箭头9-end -->
+        <mxCell id="arrow9-end" value="" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=2;strokeColor=#a855f7;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="1032" as="sourcePoint"/>
+            <mxPoint x="720" y="1032" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 完成节点 -->
+        <mxCell id="end-node" value="✓ 移交完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#22c55e;strokeColor=#16a34a;fontColor=#ffffff;fontSize=14;shadow=1;fontStyle=1;arcSize=25;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1007" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="end-icon" value="🔄" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="855" y="1010" width="45" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="end-text" value="资产回归&lt;br&gt;政府" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#7e22ce;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="1010" width="55" height="45" as="geometry"/>
+        </mxCell>
+
+        <!-- ============ 底部信息栏 ============ -->
+        <mxCell id="footer-line" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#e2e8f0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1095" width="920" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer-left" value="数据来源：专项债券信息网  ·  鞍山市供水生产服务提升特许经营项目实施方案" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#94a3b8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1105" width="450" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer-right" value="泓创智胜  ·  2025-12-08" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#94a3b8;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1105" width="160" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

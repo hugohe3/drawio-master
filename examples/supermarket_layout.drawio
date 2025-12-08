@@ -1,102 +1,101 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
-  <diagram name="超市平面布局" id="supermarket-layout">
-    <mxGraphModel dx="976" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600" background="#ffffff" math="0" shadow="0">
+  <diagram name="Supermarket Layout" id="supermarket-layout">
+    <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="720" height="520" as="geometry" />
+        
+        <!-- Outer Shell -->
+        <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=3;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="&lt;b&gt;入口&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="40" width="80" height="30" as="geometry" />
+
+        <!-- Entrance Area -->
+        <mxCell id="3" value="&lt;b&gt;入口 / 购物车&lt;/b&gt;&lt;br&gt;Entrance / Carts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontFamily=Helvetica;shadow=1;gradientColor=#97d077;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="&lt;b&gt;出口&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="40" width="80" height="30" as="geometry" />
+
+        <!-- Fresh Produce (Left Side) -->
+        <mxCell id="4" value="&lt;b&gt;新鲜蔬果区&lt;/b&gt;&lt;br&gt;Fresh Produce" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontFamily=Helvetica;shadow=1;gradientColor=#97d077;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="服务台&lt;br&gt;Customer Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="60" y="90" width="100" height="60" as="geometry" />
+        <!-- Produce Tables -->
+        <mxCell id="4a" value="水果 Fruits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ffcc;strokeColor=#82b366;fontSize=11;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="购物车&lt;br&gt;存放区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="180" y="90" width="80" height="60" as="geometry" />
+        <mxCell id="4b" value="蔬菜 Vegetables" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ffcc;strokeColor=#82b366;fontSize=11;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="&lt;b&gt;收银区 Checkout&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="90" width="460" height="30" as="geometry" />
+        <mxCell id="4c" value="有机产品 Organic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ffcc;strokeColor=#82b366;fontSize=11;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="280" y="130" width="50" height="40" as="geometry" />
+         <mxCell id="4d" value="特价促销 Promo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#d6b656;fontSize=11;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="340" y="130" width="50" height="40" as="geometry" />
+
+        <!-- Bottom/Top Perimeter: Bakery & Deli (Top Left/Center) -->
+        <mxCell id="5" value="&lt;b&gt;烘焙 &amp; 熟食&lt;/b&gt;&lt;br&gt;Bakery &amp; Deli" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontFamily=Helvetica;shadow=1;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="400" y="130" width="50" height="40" as="geometry" />
+        
+        <!-- Meat & Seafood (Top Right) -->
+        <mxCell id="6" value="&lt;b&gt;肉类 &amp; 海鲜&lt;/b&gt;&lt;br&gt;Meat &amp; Seafood" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontFamily=Helvetica;shadow=1;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="460" y="130" width="50" height="40" as="geometry" />
+        
+        <!-- Dairy & Frozen (Right Side) -->
+        <mxCell id="7" value="&lt;b&gt;冷冻食品&lt;/b&gt;&lt;br&gt;Frozen Foods" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Helvetica;shadow=1;gradientColor=#7ea6e0;writingMode=vertical-rl;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="80" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="520" y="130" width="50" height="40" as="geometry" />
+        <mxCell id="8" value="&lt;b&gt;乳制品&lt;/b&gt;&lt;br&gt;Dairy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Helvetica;shadow=1;gradientColor=#7ea6e0;writingMode=vertical-rl;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="80" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="580" y="130" width="50" height="40" as="geometry" />
+
+        <!-- Central Aisles (Dry Goods) -->
+        <!-- Aisle 1 -->
+        <mxCell id="9" value="1: 饮料 / 酒水&lt;br&gt;Beverages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontFamily=Helvetica;shadow=1;gradientColor=#e6e6e6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="80" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="自助&lt;br&gt;收银" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="650" y="130" width="90" height="40" as="geometry" />
+        <!-- Aisle 2 -->
+        <mxCell id="10" value="2: 零食 / 糖果&lt;br&gt;Snacks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontFamily=Helvetica;shadow=1;gradientColor=#e6e6e6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="80" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="&lt;b&gt;蔬菜水果区&lt;/b&gt;&lt;br&gt;Fruits &amp; Vegetables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="60" y="190" width="160" height="80" as="geometry" />
+        <!-- Aisle 3 -->
+        <mxCell id="11" value="3: 调味 / 粮油&lt;br&gt;Condiments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontFamily=Helvetica;shadow=1;gradientColor=#e6e6e6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="80" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="&lt;b&gt;生鲜肉类区&lt;/b&gt;&lt;br&gt;Fresh Meat &amp; Seafood" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="60" y="290" width="160" height="80" as="geometry" />
+        <!-- Aisle 4 -->
+        <mxCell id="12" value="4: 居家 / 清洁&lt;br&gt;Household" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontFamily=Helvetica;shadow=1;gradientColor=#e6e6e6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="80" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="&lt;b&gt;冷藏冷冻区&lt;/b&gt;&lt;br&gt;Frozen Foods" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="60" y="390" width="160" height="80" as="geometry" />
+
+        <!-- Checkout Area -->
+        <mxCell id="13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="480" width="400" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="零食饮料区&lt;br&gt;Snacks &amp; Beverages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="250" y="190" width="120" height="100" as="geometry" />
+        <mxCell id="14" value="收银台 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=10;fontFamily=Helvetica;shadow=1;gradientColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="粮油调味区&lt;br&gt;Grains &amp; Condiments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="390" y="190" width="120" height="100" as="geometry" />
+        <mxCell id="15" value="收银台 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=10;fontFamily=Helvetica;shadow=1;gradientColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="日用百货区&lt;br&gt;Daily Necessities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="530" y="190" width="120" height="100" as="geometry" />
+        <mxCell id="16" value="收银台 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=10;fontFamily=Helvetica;shadow=1;gradientColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="个人护理区&lt;br&gt;Personal Care" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="670" y="190" width="80" height="100" as="geometry" />
+        <mxCell id="17" value="自助收银 Self" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006eaf;fontColor=#ffffff;fontSize=10;fontFamily=Helvetica;shadow=1;gradientColor=#006eaf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="酒水饮料区&lt;br&gt;Wine &amp; Drinks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="250" y="310" width="120" height="80" as="geometry" />
+
+        <!-- Customer Service -->
+        <mxCell id="18" value="服务台&lt;br&gt;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontFamily=Helvetica;shadow=1;gradientColor=#d0c0e0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="休闲食品区&lt;br&gt;Leisure Food" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="390" y="310" width="120" height="80" as="geometry" />
+
+        <!-- Labels/Path -->
+        <mxCell id="19" value="收银通道 Checkout Line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="家居用品区&lt;br&gt;Household Items" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="530" y="310" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="25" value="母婴用品区&lt;br&gt;Baby Products" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="670" y="310" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="26" value="烘焙区&lt;br&gt;Bakery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d79b00;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="250" y="410" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="27" value="熟食区&lt;br&gt;Deli" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d79b00;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="390" y="410" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="28" value="&lt;b&gt;促销特价区&lt;/b&gt;&lt;br&gt;Promotion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#b85450;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="530" y="410" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="29" value="休息区&lt;br&gt;Rest Area" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="670" y="410" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="30" value="卫生间&lt;br&gt;Restroom" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="670" y="460" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="31" value="&lt;b&gt;仓库/后勤区&lt;/b&gt;&lt;br&gt;Storage &amp; Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="60" y="500" width="690" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="32" value="← 主通道 →" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="350" y="390" width="100" height="20" as="geometry" />
-        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
